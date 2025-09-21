@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* keeps top alignment */
+  min-height: 100vh;
+  background: #dcdcdc;
+  font-family: "Times New Roman", serif;
+  color: #333;
+}
+
+.portfolio-header h2 {
+  font-size: 2rem;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.portfolio-page {
+  width: 800px;            /* close to A4 size */
+  background: #fdf6e3;     /* paper color */
+  border: 5px solid #4a2c2a;
+  padding: 2rem;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+  text-align: center;
+}
+.section-title {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+  letter-spacing: 5px;
+  border-bottom: 3px solid #4a2c2a;
+  padding-bottom: 10px;
+}
+
+p, li {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.wanted-photo {
+  width: 300px;
+  margin: 2rem 0;
+  border: 8px solid #4a2c2a;
+  padding: 5px;
+  filter: sepia(100%) contrast(120%) brightness(90%) grayscale(30%);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.portfolio-footer {
+  margin-top: 3rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-top: 2px solid #4a2c2a;
+  padding-top: 1rem;
+}
